@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway&family=Roboto:wght@500&display=swap');
+
+.header {
+    position: relative;
+    padding: 30px;
+    text-align: center; 
+    background: rgb(102, 102, 255); 
+    color: white;
+    margin: 2%;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    border-radius: 5px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0.05);
+    filter: brightness();
+} 
+
+.img1 {
+    width: 100px; 
+    position: absolute; 
+    left: 10rem; 
+    top: 3rem;
+}

@@ -1,0 +1,147 @@
+#layoutContainer {
+    height: 15rem; 
+    width: 40rem;
+    vertical-align: middle;
+    background: rgb(220,220,220);
+    border-radius: 5px; 
+    box-shadow: 0 0 40px rgba(0, 0, 0.05); 
+    padding: 15rem 7rem;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+
+    text-align: center; 
+} 
+
+
+input[name="Nomes"] {
+  background: transparent; 
+  font-family: 'Roboto', sans-serif;
+  border: none; 
+  box-shadow: none;
+  border-bottom: 1px solid rgb(104,104,104);
+  width: 72%;
+  position: relative;  
+  margin-bottom: 25rem; 
+  margin-right: 14.3rem;
+} 
+
+input[name="Nomes"]:focus { 
+  outline: 0 !important;
+
+}
+
+input[name="Idades"] {
+  background: transparent; 
+  border: none; 
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid rgb(104,104,104);
+  width: 30%;
+  position: absolute; 
+  margin-bottom: 10rem; 
+  margin-right: 14.1rem;
+} 
+
+input[name="Idades"]:focus { 
+  outline: 0 !important;
+
+}
+
+input[name="Profissões"] {
+  background: transparent; 
+  border: none; 
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid rgb(104,104,104);
+  width: 30%;
+  position: absolute; 
+  margin-bottom: -4rem; 
+  margin-right: 14.1rem;
+} 
+
+input[name="Profissões"]:focus { 
+  outline: 0 !important;
+
+}
+
+input[name="Emails"] {
+  background: transparent; 
+  border: none; 
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid rgb(104,104,104);
+  width: 30%;
+  position: absolute; 
+  margin-bottom: -20rem; 
+  margin-right: 14.1rem;
+}  
+
+input[name="Emails"]:focus { 
+  outline: 0 !important;
+
+}
+
+#labelNome {
+  font-family: 'Roboto', sans-serif; 
+  position: absolute; 
+  margin-right: 35rem; 
+  margin-bottom: 30rem;
+} 
+
+#labelIdade {
+  font-family: 'Roboto', sans-serif; 
+  position: absolute; 
+  margin-right: 35rem; 
+  margin-bottom: 15rem;
+}  
+
+#labelProfissão {
+  font-family: 'Roboto', sans-serif; 
+  position: absolute; 
+  margin-right: 34.2rem; 
+  margin-bottom: 0rem;
+} 
+
+#labelEmail {
+  font-family: 'Roboto', sans-serif; 
+  position: absolute; 
+  margin-right: 35rem; 
+  margin-bottom: -15rem;
+}  
+
+#botãoEnviar {
+  height: 6rem; 
+
+  width: 4.5rem;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+
+  background-color: rgb(102, 102, 255);
+  border: 0; 
+  border-radius: 4px; 
+
+  color: var(--white); 
+
+  margin-right: 35rem;
+  margin-bottom: -3rem;
+  font-size: 17.3px; 
+  font-weight: 600;
+
+  transition: filter 0.2s; 
+  
+}
+
+#botãoEnviar:hover {
+  filter: brightness(1.3);
+}
+ 
+#Enviado {
+  position: absolute;
+  margin-bottom: -30rem; 
+  visibility: hidden;
+}
+
+#fonte-icones {
+  font-family: 'Roboto', sans-serif;
+}
